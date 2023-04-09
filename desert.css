@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffedeb;
+}
+
+.header {
+  background-color: #ffe0db;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+.subtitle {
+  font-size: 23px;
+  color: #7FB285;
+  text-shadow: 1px 1px 1px #888888;
+}
+
+#navbar {
+  background-color: #ed6b86;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+/* navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffedeb;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+/* changing text color when hover */
+#navbar a:hover {
+  color: #463239;
+    }
+
+.intro {
+  font-size: 21px;
+  margin: 30px;
+  padding: 10px;
+  color: #463239;
+}
+
+.logo {
+  height: 125px;
+  width: 125px;
+  float: left;
+}
+
+.logo2 {
+  height: 125px;
+  width: 125px;
+  float: right;
+}
+
+.visual {
+  border: 5px solid #C6AD94;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.visual, .visualEXP {
+  float: left;
+  margin: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
+  align: center;
+}
+
+.intro {
+  font-size: 21px;
+  font-family: 'Libre franklin';
+  padding-left: 70px;
+  color: #463239;
+}
+
+.intro2 {
+  font-size: 21px;
+  font-family: 'Libre franklin';
+  color: #463239;
+  padding-top: 650px;
+  padding-left: 90px;
+}
+
+.fade-in-viz {
+  animation: fadeIn linear 1.15s;
+  -webkit-animation: fadeIn linear 1.15s;
+  -moz-animation: fadeIn linear 1.15s;
+  -o-animation: fadeIn linear 1.15s;
+  -ms-animation: fadeIn linear 1.15s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+}
+
+a:link {
+  color: #80B385;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited, a:link {
+  color: #80B385;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ed6b86;
+  background-color: transparent;
+  text-decoration: underline;
+}

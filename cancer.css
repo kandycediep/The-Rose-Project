@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffedeb
+}
+
+.header {
+  background-color: #ffe0db;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+.subtitle {
+  font-size: 23px;
+  color: #7FB285;
+  text-shadow: 1px 1px 1px #888888;
+}
+
+#navbar {
+  background-color: #ed6b86;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+/* navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffedeb;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+/* changing text color when hover */
+#navbar a:hover {
+  color: #463239;
+    }
+
+.intro {
+  font-size: 21px;
+  margin: 30px;
+  padding: 10px;
+  color: #463239;
+}
+
+.intro-text {
+  font-size: 21px;
+  font-family: 'Libre franklin';
+  margin: 30px;
+  padding: 10px;
+  color: #463239;
+}
+
+.logo {
+  height: 125px;
+  width: 125px;
+  float: left;
+}
+
+.logo2 {
+  height: 125px;
+  width: 125px;
+  float: right;
+}
+
+.linevisual, .linevisual2, .linevisual3, .linevisual4 {
+  border: 5px solid #C6AD94;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.linevisual, .linevisual3 {
+  float: left;
+  margin: 30px;
+}
+
+.linevisual2 {
+  float: right;
+}
+
+.linevisual4 {
+  float: right;
+  margin: 30px;
+}
+
+.fade-in-viz {
+  animation: fadeIn linear 1.15s;
+  -webkit-animation: fadeIn linear 1.15s;
+  -moz-animation: fadeIn linear 1.15s;
+  -o-animation: fadeIn linear 1.15s;
+  -ms-animation: fadeIn linear 1.15s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+}

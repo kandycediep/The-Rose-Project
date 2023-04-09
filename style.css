@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffedeb
+}
+
+.header {
+  background-color: #ffe0db;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+.subtitle {
+  font-size: 23px;
+  color: #7FB285;
+  text-shadow: 1px 1px 1px #888888;
+}
+
+#navbar {
+  background-color: #ed6b86;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+/* navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffedeb;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+/* changing text color when hover */
+#navbar a:hover {
+  color: #463239;
+    }
+
+.intro {
+  font-size: 21px;
+  margin: 30px;
+  padding: 10px;
+  color: #463239;
+}
+
+.intro2 {
+  font-size: 70px;
+  margin: 30px;
+  padding: 10px;
+  color: #463239;
+  text-align: center;
+}
+
+.intro3 {
+  font-size: 25px;
+  margin: 30px;
+  color: #a5838f;
+  text-align: center;
+  font-family: 'Libre franklin';
+}
+
+.intro4 {
+  font-size: 42px;
+  margin: 30px;
+  color: #463239;
+  text-align: center;
+  font-family: 'Libre franklin';
+}
+
+.logo {
+  height: 125px;
+  width: 125px;
+  float: left;
+}
+
+.logo2 {
+  height: 125px;
+  width: 125px;
+  float: right;
+}
+
+.img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  text-align:center;
+  margin: 20px;
+  border: 5px solid #C6AD94;
+  border-radius: 4px;
+}
+
+.stat {
+  transition: transform .4s; 
+  margin: 0 auto;
+}
+
+.stat:hover {
+  transform: scale(1.5);
+}
